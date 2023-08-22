@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+
+        div{
+            background-color: blue;
+            display: inline-block;
+            border: 1px solid black;
+            text-align: center;
+            height: 200px;
+            width: 200px;
+        }
+
+        div:hover {
+            background-color: hotpink;
+        }
+        div > p {
+
+            display: none;
+        }
+        div:hover > p {
+            display: block;
+            background-color: blueviolet;
+        }
+
+    </style>
+    <title> Pseudo-Classes</title>
+</head>
+
+<body>
+    <div id="01">01</div>
+    <div id="02">02
+        <p>
+            Parágrafo filho
+        </p>
+
+    </div>
+    <div id="03">03</div>
+    
+</body>
+</html>
